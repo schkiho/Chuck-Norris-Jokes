@@ -1,0 +1,22 @@
+{
+  "name": "chuck-norris",
+  "version": "1.0.0",
+  "description": "chuck norris joke generator",
+  "main": "app.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schkiho/Chuck-Norris-Jokes.git"
+  },
+  "author": "Daniel Schmidt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schkiho/Chuck-Norris-Jokes/issues"
+  },
+  "homepage": "https://github.com/schkiho/Chuck-Norris-Jokes#readme",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}

@@ -11,18 +11,30 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <style>
+      body {
+        background-image: url('../img/bg-img.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+    </style>
     <link rel="stylesheet" href="./dist//css//main.css" />
   </head>
-  <body>
+  <body id="body-bg">
     <div class="container mt-4">
       <div class="row">
         <div class="col-12">
-          <img src="./img/main-img.jpg" alt="Chuck Norris Approved" />
+          <img
+            src="./img/main-img.jpg"
+            alt="Chuck Norris Approved"
+            class="container-img"
+          />
           <h1>Chuck Norris Joke Generator</h1>
           <form>
             <div>
               <label for="number">Set Number of Jokes</label>
-              <input type="number" id="number" min="0" />
+              <input type="number" id="number" min="0" class="p-2" />
             </div>
             <div>
               <button class="get-jokes btn btn-primary btn-block btn-lg mt-2">

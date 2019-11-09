@@ -37,11 +37,6 @@ label {
 }
 
 .container {
-  @include border;
-  height: 100%;
-  width: 100%;
-  box-shadow: 0 10px 16px 0;
-
   h1 {
     text-align: center;
   }
